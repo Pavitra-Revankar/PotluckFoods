@@ -1,0 +1,83 @@
+
+
+
+.textbox{
+	width:300px;
+	height:20px;
+}
+
+.flexContainer{
+	display: flex;
+}
+
+.label, .input{
+	flex-wrap: wrap;
+}
+
+.btnLogin{
+	margin-left:220px;
+	width:70px;
+	height:fit-content;
+	font-size: 20px;
+	font-weight: 700;
+	border-radius: 5px;
+	border:none;
+}
+.form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70vh;
+	margin-left:-30px;
+	margin-top:-90px;
+	
+}
+
+.createAcc{
+	margin-left: 680px;
+	margin-top: -250px;
+}
+
+body{
+	background-image: url("images/bg1.jpg");
+}
+
+form{
+	align-content: center;
+	background-color:grey;
+	width:fit-content;
+	height:200px;
+	border:1px solid black;
+	padding:10px;
+	border-radius: 10px;
+	margin:0 auto;
+}
+
+h2{
+	text-align: center;
+	font-size: 30px;
+	color:white;
+	position:absolute;
+	top:200px;
+	left:800px;
+	
+}
+
+label{
+	font-size: 20px;
+	font-weight: 700;
+	margin:30px;
+	margin-left:0px;
+	padding:10px;
+	padding-left:0px;
+
+}
+
+pre{
+	font-size:70px;
+	font-weight: 600;
+	color:white;
+	margin-bottom:0;
+	margin-left:470px;
+	padding-bottom:0;
+}

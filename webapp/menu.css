@@ -1,0 +1,112 @@
+.info{
+	display: flex;
+	justify-content: center;
+	padding:10px;
+	font-size: 20px;
+}
+
+.EA{
+	width:fit-content;
+	padding:0 10px 0 10px;
+	border:0.5px solid grey;
+	
+	border-radius: 20px;
+	
+}
+body{
+	width:fit-content;
+}
+.CR{
+	margin-bottom: 3px;	
+}
+
+.CR , .EA{
+	font-size: 30px;
+		
+}
+
+.flex-container{
+	margin-top:20px;
+	width:100%;
+	height:auto;
+	display:flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.recommended{
+	display: flex; 
+	justify-content: center;
+	float:left;
+}
+.flex-items{
+	width:300px;
+	height:300px;
+	margin:20px;
+	margin-bottom: 200px;
+	
+}
+
+.link{
+	float:right;
+	margin-bottom: 0px;
+}
+
+#cuisine{
+	margin-right: 30px;
+}
+
+#ratings{
+	padding:0px;
+	padding-left: 3px;
+	padding-right: 3px;
+	border:1px solid forestgreen;
+	border-radius: 10px;
+	color:white;
+	background-color: forestgreen;
+	
+}
+#timer{
+	width: 30px;
+	height:30px;
+	margin-bottom:-4px;
+}
+
+#eta{
+	margin-right: 30px;
+	margin-left: 3px;
+}
+
+#address{
+	margin-left: 30px;
+}
+
+
+li{
+	display: inline-block;
+	margin: 0px;
+	padding : 0px 20px 0px 20px;
+	color: white;
+	
+}
+
+.navbar a{
+	color: white;
+	font-weight: 600;
+	font-size: 20px;
+	padding-left: 1px;
+	padding-right: 1px;
+	height:40px;
+	margin-top: 30px;
+}
+
+.navdiv{
+	display: flex;
+	justify-content: space-between;
+	background-color: rgb(0, 0, 191);
+	height: fit-content;
+	margin-top: 0px;
+	margin-right: -5px;
+}
